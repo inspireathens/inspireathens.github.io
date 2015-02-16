@@ -3,10 +3,10 @@
   <channel>
     <title>Inspire Athens</title>
     <description>We believe that with togetherness, creativity, and initiative we are able to inspire each other, bringing together collaborative activities.</description>
-    <link>http://freefeather.github.io//</link>
-    <atom:link href="http://freefeather.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Feb 2015 23:21:04 +0200</pubDate>
-    <lastBuildDate>Mon, 16 Feb 2015 23:21:04 +0200</lastBuildDate>
+    <link>http://inspireathens.github.io/</link>
+    <atom:link href="http://inspireathens.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 16 Feb 2015 23:33:08 +0200</pubDate>
+    <lastBuildDate>Mon, 16 Feb 2015 23:33:08 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>&lt;p&gt;Get to know one’s thoughts or feelings through many forms of art; music, paintings, sculptures and much more.&lt;/p&gt;
 </description>
         <pubDate>Sat, 31 Jan 2015 00:00:00 +0200</pubDate>
-        <link>http://freefeather.github.io//subject/art</link>
-        <guid isPermaLink="true">http://freefeather.github.io//subject/art</guid>
+        <link>http://inspireathens.github.io/subject/art</link>
+        <guid isPermaLink="true">http://inspireathens.github.io/subject/art</guid>
         
         
         <category>subject</category>
@@ -27,8 +27,8 @@
         <description>&lt;p&gt;To get to the other side.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Apr 2014 19:54:46 +0300</pubDate>
-        <link>http://freefeather.github.io//question/your-project-name</link>
-        <guid isPermaLink="true">http://freefeather.github.io//question/your-project-name</guid>
+        <link>http://inspireathens.github.io/question/your-project-name</link>
+        <guid isPermaLink="true">http://inspireathens.github.io/question/your-project-name</guid>
         
         
         <category>question</category>
@@ -40,8 +40,8 @@
         <description>
 </description>
         <pubDate>Fri, 25 Apr 2014 00:00:00 +0300</pubDate>
-        <link>http://freefeather.github.io//blog/first-house-gathering</link>
-        <guid isPermaLink="true">http://freefeather.github.io//blog/first-house-gathering</guid>
+        <link>http://inspireathens.github.io/blog/first-house-gathering</link>
+        <guid isPermaLink="true">http://inspireathens.github.io/blog/first-house-gathering</guid>
         
         
         <category>blog</category>
@@ -57,8 +57,8 @@
 &lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Apr 2014 00:00:00 +0300</pubDate>
-        <link>http://freefeather.github.io//project/your-project-name</link>
-        <guid isPermaLink="true">http://freefeather.github.io//project/your-project-name</guid>
+        <link>http://inspireathens.github.io/project/your-project-name</link>
+        <guid isPermaLink="true">http://inspireathens.github.io/project/your-project-name</guid>
         
         
         <category>project</category>
