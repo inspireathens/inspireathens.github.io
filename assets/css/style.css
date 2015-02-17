@@ -431,7 +431,11 @@ width: 100%;
     line-height: 30px;
 }
 /* clients logo */
-
+.webform{
+overflow: hidden;
+border: none;
+width: 100%;
+}
 #cwrap {
     margin-top: 0px;
     padding-top: 80px;
@@ -439,14 +443,10 @@ width: 100%;
 }
 /* Footer */
 
-#footerwrap {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-#footerwrap a {
+.footerlist a {
     border: none;
 }
-#footerwrap p {
+.footerlist p {
     border-bottom: solid 1px black;
 }
 #footerwrap h4 {

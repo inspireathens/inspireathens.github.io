@@ -52,7 +52,7 @@
         <li ><a style="border-color: rgb(255, 0, 68);" href="/">HOME</a></li>
         <li ><a style="border-color: rgb(16, 0, 255);" href="/news/">NEWS</a></li>
         <li ><a style="border-color: rgb(0, 226, 255);" href="/history/">ABOUT</a></li>
-        <li ><a style="border-color: rgb(0, 226, 3);" href="/contact/">CONTACT</a></li>
+        <li><a style="border-color: rgb(0, 226, 3);" href="#myModalMsg" role="button" data-toggle="modal">MESSAGE</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -209,13 +209,57 @@
                 <h4 class="modal-title">Stay Updated</h4>
                 <p>There's loads more coming up. I can let you know by email.</p>
             </div>
-            <div class="modal-body">
+            <div id="myModalBody" class="modal-body">
                 <!-- BEGIN Podio web form -->
-                <script src="https://podio.com/webforms/11211259/789832.js"></script>
                 <script type="text/javascript">
-                _podioWebForm.render("789832")
+                (function(){
+                var done = false;
+                $('#myModal').on('show.bs.modal', function(event) {
+                    if (!done) {
+                        $('<iframe id="subscribeform" style="height:300px" class="webform" src="http://advancedwebform.com/forms/588"></iframe>').appendTo('#myModalBody');
+                        done = true;
+                    }
+                });
+                })();
                 </script>
-                <div class="podio-webform-container">
+                </div>
+                <!-- END Podio web form -->
+            </div>
+            <!-- End of Modal body -->
+        </div>
+        <!-- End of Modal content -->
+    </div>
+    <!-- End of Modal dialog -->
+</div>
+<!-- End of Modal -->
+
+        <!-- Modal -->
+<div id="myModalMsg" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Message me</h4>
+                <p>
+            Email: inspireathens@gmail.com
+            </p>
+            </div>
+            <div id="myMsgBody" class="modal-body">
+            <p>
+            Your messages are sent directly to me and will not be displayed anywhere else.
+            </p>
+                <!-- BEGIN Podio web form -->
+                <script type="text/javascript">
+                (function(){
+                var done = false;
+                $('#myModalMsg').on('show.bs.modal', function(event) {
+                    if (!done) {
+                        $('<iframe style="height:530px" class="webform" src="http://advancedwebform.com/forms/587"></iframe>').appendTo('#myMsgBody');
+                        done = true;
+                    }
+                });
+                })();
+                </script>
                 </div>
                 <!-- END Podio web form -->
             </div>
